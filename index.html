@@ -16,13 +16,22 @@
 <body class="page">
    <header class="page__header">
       <nav class="page__nav" id="page__nav">
-         <div class="nav__logo">
-            <a class="nav__link" href="index.html">Jack's Maces</a>
-         </div>
-         <div class="nav__design">
-            <img src="img/design.svg" alt="Ornament"/>
-         </div>
-         <div class="page__nav__container hamburger-nav">
+        <div class="page__nav_wrapper">
+            <div class="nav__logo">
+               <a class="nav__link" href="index.html">Jack's Maces</a>
+            </div>
+            <div class="hamburger-row nav__hamburger">
+               <a href="javascript:void(0)" class="hamburger hamburger-btn hamburger-zone">
+                   <span></span>
+                   <span></span>
+                   <span></span>
+               </a>
+           </div>
+        </div class="page__nav_wrapper">
+        <div class="nav__design">
+         <img class="nav__ornament" src="img/design.svg" alt="Ornament"/>
+      </div>
+         <div class="page__nav__container hamburger-nav hamburger-zone">
             <ul class="menu menu_main">
                <li class="menu__item">
                   <a class="menu__link" href="uvod.html">Úvod</a>
@@ -95,5 +104,5 @@
       </div>
    </footer>
 </body>
-
+<script src="./js/hamburger.js"></script>
 </html>
