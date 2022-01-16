@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Tahoma';
+    src:
+        local('Tahoma'),
+        local('Tahoma-Regular'),
+        url('../fonts/Tahoma\ Regular\ font.ttf');
+    }
 .page {
   margin: 0;
   font-family: "Tahoma", sans-serif;
@@ -15,8 +22,6 @@
 }
 
 .page {
-  background-image: url(../img/background.png);
-  background-size: cover;
   background-color: #9d1114;
   color: var(--white);
 }
