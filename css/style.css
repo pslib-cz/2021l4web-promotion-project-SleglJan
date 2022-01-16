@@ -2,9 +2,10 @@
     margin: 0;
     font-family: 'Tahoma', sans-serif;
     font-weight: normal; 
+    font-size: 16px;
 }
 
-.heading {
+.heading, .nav__logo, .buttons,.landing__icons {
     font-family: 'Rift', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -12,19 +13,27 @@
 
 .page{
     background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-color:  #9D1114;
+    color: var(--white);
+    background-position: bottom left;
+    height: 100vh;
+
 }
 .page__content{
     margin-left: 5vw;
     margin-right: 5vw;
 }
 body {
-    font-family: Montserrat;
     --dark: #000000;
     --blue: #0078ef;
     --white: #ffffff;
     overflow-x: hidden;
+    --gold: #D39050;
 }
-
+.image{
+    display: block;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -44,4 +53,89 @@ width: 90vw;
 }
 .page__header{
     max-width: 95%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 20px;
+}
+
+.nav__link{
+    color: var(--gold);
+    font-size: 36px;
+}
+.landing__image{
+height: 34vh;
+margin: 0 auto;
+margin-bottom: 15px;
+}
+.buttons{
+    background-color: var(--gold);
+    color: var(--dark);
+    border: solid var(--dark) 5px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.buttons-reverse{
+    background-color: var(--dark);
+    color: var(--gold);
+    border: solid var(--gold) 5px;
+}
+.landing__icons{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 26px;
+    color: var(--gold);
+}
+.icons_wrapper{
+    display: flex;
+    align-items: center;
+}
+.landing__text{
+    text-align: justify;
+}
+.heading_2{
+    font-size: 28px;
+}
+.heading_3{
+    font-size: 24px;
+    text-align: center;
+}
+.drink__image{
+    height: 35vh;
+    margin: 0 auto;
+}
+.drink__info{
+    text-align: center;
+}
+.drink__text{
+    text-align: justify;
+    margin-bottom: 3em;
+}
+.page__footer{
+    background-color: var(--gold);
+    color: var(--dark);
+    border-top: solid var(--dark) 8px;
+    border-bottom: solid var(--dark) 8px;
+    text-align: center;
+}
+.footer__mail a{
+    color: var(--dark);
+    font-size: 24px;
+    display: block;
+}
+.footer__social{
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    max-width: 45vw;
+}
+.footer__social .icon{
+    color: var(--dark);
 }
