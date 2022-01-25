@@ -14,3 +14,5 @@
 **Foto:** Docs/Foto nebo https://bit.ly/3KIW7Ly
 
 **XD návrh:** Docs/Xd nebo https://bit.ly/3IBtiik
+
+![Rum Jack's Maces](/docs/foto/DSC0645.jpg)
