@@ -3,7 +3,7 @@
 
 * Kvalitní kubánským rum
 * S designovou lahví
-* A neodolatelnou vůnís
+* A neodolatelnou vůní
 
 **Web:** https://pslib-cz.github.io/2021l4web-promotion-project-SleglJan/root/
 
