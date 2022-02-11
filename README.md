@@ -5,7 +5,7 @@
 * S designovou lahví
 * A neodolatelnou vůní
 
-**Web:** https://pslib-cz.github.io/2021l4web-promotion-project-SleglJan/root/
+**Web:** https://pslib-cz.github.io/2021l4web-promotion-project-SleglJan/www/
 
 **Odkaz na prezentaci:** Docs/Pptx nebo https://bit.ly/3nXKUgd
 
